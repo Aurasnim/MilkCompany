@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Подключаем css файл -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Подключаем js файл, используя новую методику script и добавляем атрибут defer чтобы он подключался в конце тэга body -->
+    <script src="js/app.js" defer></script> 
+    <!-- Подключаем вспомогательный js файл, используя новую методику script и добавляем атрибут defer чтобы он подключался в конце тэга body -->
+    <script src="libs/rain.js" defer></script> 
+</head>
+<body>
+    <!-- <div class="logo" style = "background-image: url(img/logo.png);"></div> -->
+
+    <section class="layers">
+        <div class="layers__container">
+            <!-- Прописываем div для слоя изображения -->
+            <div class="layers__item layer-1"  style = "background-image: url(img/Background.jpg)"></div>
+            <!-- Прописываем div для основного текса и кнопки на сайте -->
+            <div class="layers__item layer-2">
+                <div class="hero-content">
+                    <!-- Основной текст -->
+                    <h1>Milk Company <span>Vitamilk</span></h1>
+                    <!-- Параграфный текст под основным -->
+                    <div class="hero-content__p"> Milk is an amazing food prepared by nature itself </div>
+                    <!-- Кнопка -->
+                    <button class="button-start">Learn more</button>
+                </div>
+            </div>
+            <!-- Прописываем div для слоя с анимированным дождем -->
+            <div class="layers__item layer-3">
+                <canvas class = "rain"></canvas>
+            </div>
+            <!-- Прописываем div для слоя изображения -->
+            <div class="layers__item layer-4"  style = "background-image: url(img/Blicks.png)"></div>
+            <!-- Прописываем div для слоя изображения -->
+            <div class="layers__item layer-5"  style = "background-image: url(img/Cow.png)"></div>
+            <div class="layers__item layer-6"  style = "background-image: url(img/logo.png)"></div>
+        </div>
+    </section>
+    
+    <!-- Для удобства разработки -->
+    <div style="height: 100vh"></div>
+</body>
+</html>
