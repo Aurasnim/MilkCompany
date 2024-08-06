@@ -115,7 +115,7 @@ body {
 .layer-6 {
     transform: translateZ(200px) scale(.2);
     top: calc(var(--index) * -22);
-    border: calc(var(--index) * .7) calc(var(--index) * 1.25)
+    border: calc(var(--index) * 5) calc(var(--index) * 5)
 }
 
 /* Стилизация текста и кнопки */
