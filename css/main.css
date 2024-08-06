@@ -28,6 +28,7 @@
 body {
     background-color: black;
     color: white;
+    overflow: hidden
 }
 
 /* Стилизация логотипа */
@@ -114,6 +115,7 @@ body {
 .layer-6 {
     transform: translateZ(200px) scale(.2);
     top: calc(var(--index) * -22);
+    border: calc(var(--index) * .7) calc(var(--index) * 1.25)
 }
 
 /* Стилизация текста и кнопки */
